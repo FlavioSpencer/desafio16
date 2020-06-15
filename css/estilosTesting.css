@@ -1,0 +1,271 @@
+
+		body {
+    		font-family: Helvetica;
+    		margin:0;
+
+    	}
+
+    	header {
+			background-color: #2D2D2D;
+			padding: 10px;
+
+		}
+
+    	p {
+    		color: black;
+    		text-align: center;
+
+    	}
+
+    	.tituloVerde {
+			color: black;
+			margin-top: 100px;
+		}
+
+		.centerButton {
+			text-align: center;
+			margin-bottom: 100px;
+			padding: 25px;
+						
+		}
+
+
+		h1 {
+						
+			background-color: #F1EFEF;
+			font-size: 30px;
+			font-style: italic;
+			font-weight: 100;
+			line-height: 1.6;
+			text-align: center;
+			padding: 10px;
+
+		}
+
+		h5 {
+			text-align: center;
+			margin-top: 5px;
+		}
+
+		button {
+
+			background: #0099ff;
+			color: #ffffff;
+			border-width: 2px;
+			border-color: #0099ff;
+			display: inline-block;
+			height:35px;
+			
+		}
+
+		a {
+			text-decoration: none;
+			color: black;			
+		}
+
+		.centerAlign {
+			text-align: center;
+			color:white;
+		}
+
+		.leftalign {
+			text-align: left;
+		}
+
+		.derecha {
+			margin-left: 15rem;
+		}
+		
+		.imagenCentrada {
+			display:block;
+			margin:auto;
+		}
+
+		.section1, .section2, .section3 {
+    		font-size:21px;
+    		
+    	}
+
+    	.headerSolucion {
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.flexible{
+			display: flex;
+
+		}
+
+		.ualdo0 {
+			display: flex;
+			justify-content: space-around;
+			margin-bottom: 100px;
+			padding: 25px;
+
+		}
+
+		.tricomaheader {
+			display: block;
+			margin: auto;
+		}
+
+		.seccion6 {
+			margin-top: 50px;
+
+		}
+
+		
+		/*GRID*/
+
+		.grid-layout {
+			display: grid;
+			grid-gap: 3px;
+			height: 100%;
+		}
+
+		.item {
+			display: block;
+			padding: 15px;
+			font-size: 15px;
+			text-align: center;
+		}
+
+		.item.a, .item.b, .item.c {
+			text-align: center;
+			background-color: #F1EFEF;
+
+		}
+
+		.item.d {
+			grid-column: 1 /span 3;
+			display: inline-table;
+			background-color: #444444;
+
+		}
+
+		.separadosW {
+			margin-right: 20px;
+			color: #FFFEFD;
+		}		
+
+		/*MENU - TODOS LOS CSS TIENEN ESTE MISMO CÓDIGO EN EL MENÚ*/
+
+		#tabladbz {
+				margin: 10px 0em auto;
+				width: 470px;
+				font-family:Helvetica;
+
+		}
+
+		ul {
+				list-style:none;
+		}
+
+		.nav > li {
+				float:left;
+		}
+
+		.nav li a {
+				background-color:#2D2D2D;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+		}
+
+		.nav li a:hover {
+				background-color:#12C238  ;
+		}
+
+		.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+		}
+
+		.nav li:hover > ul {
+				display: block;
+			}
+
+		#main-container {
+			margin: 60px auto;
+			width: 600px;
+		}
+
+		table {
+			background-color: white;
+			text-align: left;
+			border-collapse: collapse;
+			width:100%;
+		}
+
+		th,td {
+			padding: 15px;
+
+		}
+
+		thead {
+			background-color: #0099ff;
+			color: white;
+
+		}
+
+		/*FORMULARIO SECCION 3 Y SECCIÓN 5*/
+
+		.form1 {
+  			text-align: center;
+  		}
+
+  		label{
+  			display: inline-block;
+  			width: 90px;
+  			
+  		}
+
+  		.tyc {
+  			width: 260px;
+  		}
+
+  		/*ANIMACIÓN*/
+
+  		.box {
+  			transition: 0.5s;
+  		}
+
+  		.box:hover {  			
+  			transform: scale(1.3);
+  			
+  		}
+  		
+		button.btn-primary {
+			height: 35px;
+			text-align: center;
+		}
+
+		.margenDearriba {
+			margin-top: 50px;
+		}
+
+		.margenDearriba2 {
+			margin:  20px;
+		}
+
+		.margenAbajo {
+			margin-bottom: 100px;
+			padding: 25px;
+
+		}
+
+		.pequeño {
+			font-size: 11px;
+
+		}
+		
+		.prueba1 {
+			display: 
+		}		
+
+
+		
+		
